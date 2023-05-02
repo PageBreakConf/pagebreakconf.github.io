@@ -1,0 +1,21 @@
+<li class="list-item {{ speaker.ReadytoPublish }}" style="" id="OmoOaiya">
+  <div class="list-item-media">
+    <div class="list-item-media-inner" data-aspect-ratio="circle" data-animation-role="image">
+      {% if speaker.Headshot != "" %}
+        <img alt="" class="list-image" src="{{ speaker.Headshot }}">
+      {% else %}
+        <img alt="" class="list-image" src="/assets/avatar.png">
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="list-item-content">
+    <div class="list-item-content__text-wrapper">
+      <h2 class="list-item-content__title">{{ speaker.Name }}</h2>
+      <div class="list-item-content__description">
+        <p class="title">{{ speaker.Title }}</p>
+        <p class="bio clipped" onclick="showAll(event)">{{ speaker.Bio }}</p>
+      </div>
+    </div>
+  </div>
+</li>

@@ -1,0 +1,12 @@
+<li>
+	<h4 class="accordion" aria-expanded="false" aria-controls="accordionTarget{{ forloop.index }}">
+		<span>{{ session.StartTime }} {{ session.Title }}</span>
+		<div class="arrow-container">
+	      <div class="arrow" style="border-width: 3px;"></div>
+	    </div>
+	</h4>
+	<div class="accordionTarget" aria-hidden="true" id="accordionTarget{{ forloop.index }}">
+	    <p>{{ session.ShortDescription }}</p>
+	    <p class="speakerlist">{{ session.Speakers }}</p>
+	</div>
+</li>
