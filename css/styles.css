@@ -14,6 +14,7 @@ a {
 }
 nav {
 	padding: 30px 20px;
+	position: relative;
 }
 nav.page {
 	display: flex;
@@ -43,6 +44,32 @@ nav svg {
 nav img {
 	height: 30px;
 	margin-left: 20px;
+}
+a.dropdown {
+	font-size: 0.7em;
+}
+a.dropdown::after {
+	content: "\25BC";
+}
+a.dropdown[aria-expanded="true"]::after {
+	content: "\25B6";
+}
+.dropdownTarget {
+  display: none;
+  transition: all 1s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdownTarget.active {
+  display: block;
+  max-height: 1000px; /* Set a large max-height to accommodate varying content */
+}
+
+nav div.dropdownTarget.active ul li {
+	display: block;
 }
 div.container {
 	text-align: left;
