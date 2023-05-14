@@ -35,5 +35,5 @@ title: PageBreak
 
 <p>PageBreak is fundamentally focused on sharing our visions for the future, and discussing what’s needed to get us there.</p>
 
-<p class="button"><a class="button" href="https://www.eventbrite.com/e/pagebreak-conference-2022-tickets-357880108037">Register</a></p>
+<p class="button">{% include register_button.html %}</p>
 <p>To become a PageBreak sponsor, please send us an email.</p>

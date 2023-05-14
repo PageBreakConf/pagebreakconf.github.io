@@ -28,7 +28,7 @@ There are many hotels just a short walk away from the Italian Athletic Club. Man
 
 [Find a hotel >>](https://www.google.com/maps/search/hotel/@37.8008925,-122.4178788,15z/data=!4m8!2m7!3m6!1shotel!2sSF+Italian+Athletic+Club,+1630+Stockton+St,+San+Francisco,+CA+94133!3s0x808580f10ff9d37f:0x7d074aadd9a9d742!4m2!1d-122.4091523!2d37.8008448?authuser=1)
 
-<p class="button"><a class="button" href="https://www.eventbrite.com/e/pagebreak-conference-2022-tickets-357880108037">Register</a></p>
+<p class="button">{% include register_button.html %}</p>
 
 <h2 class="subhead">The all-volunteer PageBreak team</h2>
 
