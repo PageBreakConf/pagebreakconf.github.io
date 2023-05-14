@@ -6,6 +6,21 @@ title: PageBreak
 <h2>Explore what publishing is and can be</h2>
 <p>Building on the best of Books in Browsers and Tools of Change, PageBreak is a community-driven conference focused on sharing the ways that the publishing industry is moving beyond traditional models and embracing emergent technologies, workflows, and processes.</p>
 
+<div class="image-row">
+	<figure>
+		<img src="assets/2022-4.jpg" />
+	</figure>
+	<figure>
+		<img src="assets/2022-2.jpg" />
+	</figure>
+	<figure>
+		<img src="assets/2022-3.jpg" />
+	</figure>
+	<figure>
+		<img src="assets/2022-1.jpg" />
+	</figure>
+</div>
+
 <h3>2023: Single-Source Publishing and AI</h3>
 
 <p>Our focus for 2023 is on single-source pubslishing and AI. "Single-source publishing" means centralizing your content and editing in a primary text file, and then generating all your required output formats from that primary source of truth. (For more background, here are a couple of posts from our organizers.) One of the most common pieces of feedback that comes up in any discussion of single-source publishing is: how can my organization implement this? At this year's conference, we'll provide practical sessions and workshops to help you understand the requirements of single-source workflows and how you can implement them at your organization. AI adds extra power and complexity to the single-source publishing landscape, and we'll address how it can be incorporated into your workflows.</p>
