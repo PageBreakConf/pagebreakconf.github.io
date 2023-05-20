@@ -6,6 +6,7 @@ import sys
 
 input_file = sys.argv[1]
 output_file = sys.argv[2]
+# "sessions" or "people"
 list_type = sys.argv[3]
  
 # Function to convert a CSV to JSON

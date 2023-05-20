@@ -3,28 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
   </head>
 	<body>
-		{% include home_nav.html %}
-		<header>
-		<h1>{{ page.title }}</h1>
-			<figure>
-				<img src="/assets/logo-hi-res-01.png" />
-			</figure>
-			<h2>A next-generation publishing conference</h2>
-			<p class="dateline">21-22 September 2023, San Francisco, CA USA</p>
-		</header>
-		<div class="spacer">
-			<img src="/assets/orange-line.png"></img>
+		<div class="main">
+			{% include home_nav.html %}
+			<header>
+			<h1>{{ page.title }}</h1>
+				{% include logo.html %}
+				<h2>A next-generation publishing conference</h2>
+				<p class="dateline">21-22 September 2023, San Francisco, CA USA</p>
+			</header>
+			<div class="spacer">
+				<img src="/assets/orange-line.png"></img>
+			</div>
+			<div class="container">
+				{{ content }}
+			</div>
+			{% include footer.html %}
 		</div>
-		<div class="container">
-			{{ content }}
-		</div>
-		{% include footer.html %}
 		<script src="/scripts/dropdown.js"></script>
 	</body>
 </html>

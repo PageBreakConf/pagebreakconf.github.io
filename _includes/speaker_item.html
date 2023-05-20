@@ -1,8 +1,8 @@
 <li class="list-item {{ speaker.ReadytoPublish }}" style="" id="OmoOaiya">
   <div class="list-item-media">
     <div class="list-item-media-inner" data-aspect-ratio="circle" data-animation-role="image">
-      {% if speaker.Headshot != "" %}
-        <img alt="" class="list-image" src="{{ speaker.Headshot }}">
+      {% if speaker.siteimage != "" %}
+        <img alt="" class="list-image" src="/{{ speaker.siteimage }}">
       {% else %}
         <img alt="" class="list-image" src="/assets/avatar.png">
       {% endif %}
