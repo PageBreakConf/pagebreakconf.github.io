@@ -31,6 +31,9 @@ nav {
 	padding: 30px 20px;
 	position: relative;
 }
+.mobile-nav-container, .mobile-nav-container > ul {
+	display: none;
+}
 nav.page {
 	display: flex;
 	flex-direction: row;
@@ -148,6 +151,9 @@ p.button {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	text-align: center;
+}
+p.button.left {
+	text-align: left;
 }
 a.button, input.button {
 	background-color: $pb-orange;
@@ -353,7 +359,58 @@ div.footer-links p {
 div.footer-links a {
 	color: $pb-orange;
 }
+#mc_embed_signup {
+	width: 600px;
+}
 /* LOGO STYLES */
 .st0{fill:$pb-main;}
 .st1{fill:$pb-main;}
 .st2{fill:$pb-orange;}
+
+.mobile-nav-container {display: none;}
+
+@media only screen and (max-width: 1112px) {
+	ul.desktop-nav {
+		display: none;
+	}
+	nav.page {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: stretch;
+	}
+	nav.page figure.logo-svg {
+		text-align: center;
+	}
+	.mobile-nav-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		position: relative;
+	}
+	.mobile-nav-container > ul {
+		background-color: #ffffff;
+	    position: absolute;
+	    top: 20px;
+	    left: -50px;
+	    width: 200px;
+	}
+	.mobile-nav-container > ul.active, .mobile-nav-container > ul.active li {
+		display: block;
+	}
+	.mobile-nav-container ul, .mobile-nav-container li {
+		text-align: left;
+		margin-right: 0px;
+	}
+	iframe {
+		display: none;
+	}
+	footer {
+		flex-direction: column;
+	}
+	footer > div {
+		max-width: 100%;
+	}
+	#mc_embed_signup {
+		width: 100%;
+	}
+}
