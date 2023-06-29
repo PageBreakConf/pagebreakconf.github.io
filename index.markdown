@@ -16,9 +16,6 @@ title: PageBreak
 	<figure>
 		<img src="assets/2022-3.jpg" />
 	</figure>
-	<figure>
-		<img src="assets/2022-1.jpg" />
-	</figure>
 </div>
 
 <h3>2023: Single-Source Publishing and AI</h3>
@@ -30,6 +27,10 @@ title: PageBreak
 <h4>Single-Source Publishing:</h4>
 
 <p>"Single-source publishing" means centralizing your content and editing in a primary text file, and then generating all your required output formats from that primary source of truth. (For more background, here are <a href="https://www.robotscooking.com/single-source-publishing/" target="_blank">a couple</a> of <a href="https://medium.com/hederis-app/automated-publishing-workflows-explained-58c5da5fb3fe" target="_blank">posts</a> from our organizers.) One of the most common pieces of feedback that comes up in any discussion of single-source publishing is: how can my organization implement this? <span class="highlight">At this year's conference, we'll provide practical sessions and workshops to help you understand the requirements of single-source workflows and how you can implement them at your organization.</span></p>
+
+<figure class="medium">
+	<img src="assets/2022-1.jpg" />
+</figure>
 
 <h3>Join Us in San Francisco</h3>
 

@@ -294,12 +294,20 @@ div.image-row {
 	flex-direction: row;
 }
 div.image-row figure {
-	width: 25%;
+	width: 31%;
 	margin: 0px;
 }
 div.image-row img {
 	width: 100%;
 	border: 1px solid #fff;
+}
+figure.medium {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center
+}
+figure.medium img {
+	max-width: 500px;
 }
 iframe {
 	float: right;
