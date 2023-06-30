@@ -28,7 +28,9 @@ title: PageBreak
 
 <p>"Single-source publishing" means centralizing your content and editing in a primary text file, and then generating all your required output formats from that primary source of truth. (For more background, here are <a href="https://www.robotscooking.com/single-source-publishing/" target="_blank">a couple</a> of <a href="https://medium.com/hederis-app/automated-publishing-workflows-explained-58c5da5fb3fe" target="_blank">posts</a> from our organizers.) One of the most common pieces of feedback that comes up in any discussion of single-source publishing is: how can my organization implement this? <span class="highlight">At this year's conference, we'll provide practical sessions and workshops to help you understand the requirements of single-source workflows and how you can implement them at your organization.</span></p>
 
-<figure class="medium">
+<p class="button">{% include register_button.html %}</p>
+
+<figure class="medium center">
 	<img src="assets/2022-1.jpg" />
 </figure>
 
@@ -42,5 +44,14 @@ title: PageBreak
 
 <p>PageBreak is fundamentally focused on sharing our visions for the future, and discussing what’s needed to get us there.</p>
 
+<p>To become a <a href="/sponsor">PageBreak sponsor</a>, email us at <a href="mailto:info@pagebreakconf.com">info@pagebreakconf.com</a>.</p>
+
 <p class="button">{% include register_button.html %}</p>
-<p>To become a PageBreak sponsor, please send us an email.</p>
+
+<h2 class="">Thanks to Our Media Partners</h2>
+
+<figure class="small">
+	<a href="https://publishingperspectives.com/" target="_blank"><img src="assets/PP-logo.png" /></a>
+</figure>
+
+<p><a href="https://publishingperspectives.com/" target="_blank">Publishing Perspectives</a> is a leading online business magazine for the global book industry. Our readers include publishers, literary agents, authors, book industry service providers, and publishing specialists.</p>
