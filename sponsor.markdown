@@ -53,7 +53,7 @@ These can be purchased individually or added to any of the above packages at a 2
 * Notebooks (including sponsor logo) (~ $1,000) 
 * Other options may be available – contact us! 
 
-To become a PageBreak sponsor, please email us at [info@pagebreakconf.com](mailto:info@pagebreakconf.com). You can also [download the sponsor info sheet here](https://hederissite-storage.s3.us-west-2.amazonaws.com/2023-PageBreak-Sponsorship-Levels.pdf).
+To become a PageBreak sponsor, please email us at [info@pagebreakconf.com](mailto:info@pagebreakconf.com). You can also [download the sponsor info sheet here](https://drive.google.com/file/d/1SpHsB0DFDMxMlIiBfifTNzvISK7LUfyj/view?usp=sharing).
 
 ## Donate to the Travel Fund
 
