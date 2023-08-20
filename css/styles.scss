@@ -26,6 +26,13 @@ a {
 }
 span.highlight {
 	background-color: $pb-border;
+	color: $pb-main;
+}
+p.highlight {
+	margin-bottom: 0px;
+}
+p.highlight + h3 {
+	margin-top: 0px;
 }
 nav {
 	padding: 30px 20px;

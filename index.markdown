@@ -18,23 +18,23 @@ title: PageBreak
 	</figure>
 </div>
 
-<h3>2023: Single-Source Publishing and AI</h3>
 
-<h4>AI:</h4>
+<p class="highlight"><span class="highlight">Hot topics in 2023</span></p>
+<h3>Single-Source Publishing and AI</h3>
 
-<p>AI is the question in everyone's minds these days: how can it be used within the publishing ecosystem? Where will the disruptions happen, and what are the ethics surrounding it? <span class="highlight">This year, we'll dive deep into topics surrounding the intersection of publishing and AI, to discuss the what, why, and how of implementing AI in your workflows.</span></p>
+<p>AI is the question in everyone's minds these days: how can it be used within the publishing ecosystem? Where will the disruptions happen, and what are the ethics surrounding it?</p>
 
-<h4>Single-Source Publishing:</h4>
+<p>"Single-source publishing" means centralizing your content and editing in a primary text file, and then generating all your required output formats from that primary source of truth. (For more background, here are <a href="https://www.robotscooking.com/single-source-publishing/" target="_blank">a couple</a> of <a href="https://medium.com/hederis-app/automated-publishing-workflows-explained-58c5da5fb3fe" target="_blank">posts</a> from our organizers.) One of the most common pieces of feedback that comes up in any discussion of single-source publishing is: how can my organization implement this?</p>
 
-<p>"Single-source publishing" means centralizing your content and editing in a primary text file, and then generating all your required output formats from that primary source of truth. (For more background, here are <a href="https://www.robotscooking.com/single-source-publishing/" target="_blank">a couple</a> of <a href="https://medium.com/hederis-app/automated-publishing-workflows-explained-58c5da5fb3fe" target="_blank">posts</a> from our organizers.) One of the most common pieces of feedback that comes up in any discussion of single-source publishing is: how can my organization implement this? <span class="highlight">At this year's conference, we'll provide practical sessions and workshops to help you understand the requirements of single-source workflows and how you can implement them at your organization.</span></p>
+<p>PageBreak brings together a deep network of thought-leaders to present background, roadmaps, and case studies on these topics and many more. Need to learn more before our next event? Feel free to reach out to our conference organizers at <a href="mailto:info@pagebreakconf.com">info@pagebreak.com</a>.</p>
 
-<p class="button">{% include register_button.html %}</p>
+<!-- <p class="button">{% include register_button.html %}</p> -->
 
 <figure class="medium center">
 	<img src="assets/2022-1.jpg" />
 </figure>
 
-<h3>Join Us in San Francisco</h3>
+<h3>Join Us at Our Next Event</h3>
 
 <p>We seek to foster a community of people who are excited about building change together, and willing to try new things.</p>
 
@@ -46,7 +46,7 @@ title: PageBreak
 
 <p>To become a <a href="/sponsor">PageBreak sponsor</a>, email us at <a href="mailto:info@pagebreakconf.com">info@pagebreakconf.com</a>.</p>
 
-<p class="button">{% include register_button.html %}</p>
+<!-- <p class="button">{% include register_button.html %}</p> -->
 
 <h2 class="">Thanks to Our Media Partners</h2>
 
